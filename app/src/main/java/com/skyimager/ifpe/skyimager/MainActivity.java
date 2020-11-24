@@ -30,8 +30,6 @@ import static android.os.Environment.getExternalStorageState;
 /**ATIVIDADE RESPONSÁVEL PELO GERENCIAMENTO BÁSICO DA CÂMERA E ARMAZENAMENTO DE IMAGENS */
 public class MainActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
