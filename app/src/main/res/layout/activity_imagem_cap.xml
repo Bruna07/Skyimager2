@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff6508"
+    tools:context=".ImagemCap">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:background="#142853"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imagemCap"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="#C9CDD1"
+            android:scaleType="fitCenter" />
+
+        <Button
+            android:id="@+id/btSeg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5sp"
+            android:background="#507C7C"
+            android:text="Segmentação" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
