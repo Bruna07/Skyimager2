@@ -110,8 +110,6 @@ public class Segmentacao extends AppCompatActivity {
                 }
             }
         }
-
-
         Bitmap imB = Bitmap.createBitmap(imagemO.getWidth(), imagemO.getHeight(), Bitmap.Config.ARGB_8888);
         for (int linha = 0; linha < alt; linha++) {
             for (int coluna = 0; coluna < larg; coluna++) {

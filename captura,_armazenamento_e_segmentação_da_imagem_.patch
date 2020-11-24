@@ -1,0 +1,16 @@
+Index: app/src/main/java/com/skyimager/ifpe/skyimager/Segmentacao.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/skyimager/ifpe/skyimager/Segmentacao.java	(date 1606260942000)
++++ app/src/main/java/com/skyimager/ifpe/skyimager/Segmentacao.java	(date 1606261039254)
+@@ -110,8 +110,6 @@
+                 }
+             }
+         }
+-
+-
+         Bitmap imB = Bitmap.createBitmap(imagemO.getWidth(), imagemO.getHeight(), Bitmap.Config.ARGB_8888);
+         for (int linha = 0; linha < alt; linha++) {
+             for (int coluna = 0; coluna < larg; coluna++) {
