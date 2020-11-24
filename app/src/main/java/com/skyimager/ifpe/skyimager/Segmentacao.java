@@ -122,7 +122,5 @@ public class Segmentacao extends AppCompatActivity {
         //imagemOR.setImageBitmap(imR);
         imagemOG.setImageBitmap(imagemO);//imagem original
         imagemOB.setImageBitmap(imB);//imagem final
-
-
     }
 }
