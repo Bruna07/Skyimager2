@@ -37,10 +37,6 @@ public class Segmentacao extends AppCompatActivity {
     public void segmentacao() {
         Log.i("Bruna", "ENTROU:TESTE IMAGEMB ");
 
-       // File f1 = new File("/storage/emulated/0/Arquivos_Camera2/imagemt.jpg");// 1º Teste imagem do banco
-       // imagemO = BitmapFactory.decodeFile( getFileFoto().getAbsolutePath());
-        // BitmapFactory.Options options = new BitmapFactory.Options();
-        //  options.inSampleSize = 8;
 
         imagemO = BitmapFactory.decodeFile( getFileFoto().getAbsolutePath());// Converte o destino do arquivo no bitmap
 
